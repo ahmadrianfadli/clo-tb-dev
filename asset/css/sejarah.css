@@ -1,0 +1,761 @@
+body{
+    background:#cedff5; 
+	font-family:tahoma;
+	font-size:12px;
+}
+textarea{
+	min-height:50px;
+	}
+#allLab1{
+	border-left:1px solid #ccc;
+	border-right:1px solid #ccc;
+}
+#isiLab1{
+	border-right:1px solid #ccc;
+}
+.garis{
+	padding-bottom:5px;
+	border-bottom:1px solid #ccc;
+}
+#obat1-vr,#obat2-vr{
+	overflow-x:auto;
+	overflow-y:hidden;
+}
+#table_find,#tabel_tindakBody,#body_catt{
+	overflow:auto;
+}
+.formold,.formold1,.formKonsul2{
+	border-bottom:1px solid #778899;
+	margin-bottom:5px;
+}
+.title2{
+	text-align:center;
+	font-size:14px;
+	padding-bottom:5px;
+	font-weight:bold;
+	
+}
+.container-fluid,.col-sm-1,.col-xs-2,.col-xs-10,.col-xs-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-11,.col-sm-12{
+	padding-left:0px;
+	padding-right:0px;
+}
+.tKanan{
+	text-align:right;
+	width:100%;
+}
+.tKiri{
+	text-align:left;
+	width:100%;
+}
+#buttonTgl{
+	padding-top:5px;
+}
+hr{
+	margin:5px 0;
+}
+#menu{
+	float:right;
+}
+.btn-xs, .btn-group-xs > .btn{
+	
+	min-width:50px;
+}
+#time{
+	float:left;
+	margin-left:38%;
+	margin-right:1%;
+	width:20%;
+	text-align:right;
+}
+
+#user{
+	float:left;
+	margin-left:1%;
+	width:40%;
+}
+#prevB{
+	position:relative;
+	float:left;
+}
+#nextB{
+	position:relative;
+	float:right;
+}
+.hide{
+	display:none;
+}
+.textRad{
+	border:1px solid #778899;
+	text-align:left;
+	overflow:auto;
+}
+.activation{
+	text-decoration:none;
+	color:black;
+}
+.title,.panel-default > .panel-heading
+{
+	position: relative;
+	width:100%;
+	border: 1px solid #778899;
+	/* size */
+	padding: 1px;
+	background-color: #8ca9cf;
+	background-image: -moz-linear-gradient(
+	top,
+	rgba(255,255,255,0.4) 0%,
+	rgba(255,255,255,0.2) 50%,
+	rgba(255,255,255,0.1) 51%,
+	rgba(255,255,255,0.0) 100%);
+	background-image: -webkit-gradient(
+	linear, left top, left bottom,
+	color-stop(0%,rgba(255,255,255,0.4)),
+	color-stop(50%,rgba(255,255,255,0.2)),
+	color-stop(51%,rgba(255,255,255,0.1)),
+	color-stop(100%,rgba(255,255,255,0.0)));
+	/* text */
+	color: #fffacd;
+	font-size: 12px;
+	/*text-shadow: 0 1px 1px #e8ebee;*/
+	text-align:center;
+}
+.input-sm, .form-horizontal .form-group-sm .form-control{
+	padding: 2px 5px;
+	height:25px;
+}
+.header1{
+	background:#B0C4DE;
+	position: relative;
+	padding-left:10px;
+	padding-bottom:5px;
+	color: #15428b;
+    font-weight:bold;
+	text-shadow: 0 1px 1px #e8ebee;
+	font-size:16px;
+}
+.header{
+	color: #15428b;
+    font-weight:bold;
+	text-shadow: 0 1px 1px #e8ebee;
+}
+
+#tab{
+	margin-left:2%;
+	margin-right:2%;
+}
+.panel-group{
+	margin-bottom:0px;
+}
+.panel-default{
+	border-color: #8ca9cf;
+}
+.panel-heading{
+	padding:3px;
+}
+.panel-title{
+	font-size:14px;
+}
+.panel-body{
+	padding:0px;
+}
+.bigFont{
+	float:left;
+	font-size:30px;
+}
+.bigFont1{
+	float:left;
+	font-size:30px;
+	color:blue;
+}
+.bigFont2{
+	float:left;
+	font-size:18px;
+	color:#3333FF;
+}
+#tab1{
+	background:#75B4F4;
+	border:1px solid #778899;
+}
+div.t_fixed_header div.body{
+	overflow-x:hidden;
+}
+#status,#soap,#icdDiagnosa{
+	overflow:auto;
+}
+#tab2{
+	background:white;
+	border:1px solid #778899;
+	border-top:0px;
+	font-size:10px;
+	background: url('../image/bg2.jpg');
+	background-size: 100% 100%;
+}
+#ketPasien{
+	padding-top:3px;
+	padding-left:3px;
+	height:100px;
+	overflow:auto;
+	font-size:18px;
+}
+
+#tindakTable,#imgTable,#diagTable,#anakTable{
+	overflow:auto;
+	background:white;
+	border:1px solid #ddd;
+	height:87px;
+	margin:5px 0;
+}
+#tindakTable table tr,#imgTable table tr,#diagTable table tr,#anakTable table tr{
+	border-bottom:1px solid;
+}
+#tindakTable table tr td ,#imgTable table tr td,#diagTable table tr td,#anakTable table tr td{
+	padding:5px;
+}
+#tabelImage1 tr td:first-child{
+	font-weight:bold;
+	text-align:right;
+	padding-right:5px;
+	padding-left:30px;
+	vertical-align:top;
+}
+
+#nImage1,#ketImage1{
+	width:300px;
+}
+#form1 textarea,#form2 textarea,#formKonsul textarea,#formJKonsul textarea{
+	margin:2px 0;
+}
+#icd_table tr td:first-child,#icd2_table tr td:first-child{
+	text-align:left;
+}
+#ketPas tr td{
+	text-align:right;
+	font-size:10px;
+}
+#ketPas tr td:nth-child(2n+1){
+	font-weight:bold;
+}
+#resustasiBody,#hasilBody,#periksa,#formBody2,#formBody3,#cattBody1,#observasiBody,#alatBody,#tindakIGDBody,#lapBody{
+	overflow:auto;
+}
+.taKanan{
+	text-align:right;
+	margin-right:5px;
+}
+#isi{
+	border-left:1px solid #ddd;
+	overflow:auto;
+	/*left:-36px;*/
+}
+#closeTab1{
+	float:right;
+	min-width:10px;
+	width:20px;
+	height:5px;
+	top:-3px;
+	position:relative;
+}
+#openTab{
+	float:left;
+	min-width:10px;
+	width:20px;
+	height:5px;
+	top:-3px;
+	position:relative;
+}
+.title1{
+	background:#cedff5;
+	padding-left:5px;
+}
+.tabsAlCat{
+	margin-top:5px;
+}
+#alergiTam,#cattTam{
+	margin:5px;
+}
+
+#tabAlergi,#tabCatt,#tabSejarahD,#tabSejarahO,#tabSejarahL,#tabSejarahR{
+	overflow-x:auto;
+	padding:0px;
+}
+
+#nav1{
+	width:0%;
+	left:-70px;
+}
+#nav1 > ul{
+	left:0px;
+}
+#form1,#form2,#form3,#FormSopa1{
+	padding:5px;
+}
+#i1,#i2,#i9,#tindakICD{
+	max-width:50px;
+	min-width:30px;
+}
+#anamnesaModal .modal-dialog{
+	width: 99%;
+	height: 75%;
+	padding: 0;
+	top:0px;
+	left:0px;
+}
+#cattModal .modal-body{
+	height: 65%;
+}
+#anamnesaModal .modal-body{
+	height: 70%;
+}
+#hemoModal .modal-dialog,#lapModal .modal-dialog,#labModal1 .modal-dialog,#hasilModal .modal-dialog,#resustasiModal .modal-dialog,#tindakIGDModal .modal-dialog,#alatModal .modal-dialog,#observasiModal .modal-dialog,#cattModal1 .modal-dialog,#cattModal .modal-dialog,#tindakModal .modal-dialog,#tindakModalIGD .modal-dialog,#beriModal .modal-dialog,#formModal2 .modal-dialog,#formModal3 .modal-dialog,#obgyntModal .modal-dialog,#geligiModal .modal-dialog,#giziModal .modal-dialog,#anamnesaModal1 .modal-dialog,#image_menu .modal-dialog,#obatModal .modal-dialog,#labModal .modal-dialog,#radModal .modal-dialog,#alkesModal .modal-dialog,#formulaObatModal .modal-dialog,#formulaTindakanModal .modal-dialog,#tesModal .modal-dialog,#konsul_menu .modal-dialog,#konsul_menu1 .modal-dialog,#sts_menu .modal-dialog{
+	width: 99%;
+	height: 99%;
+	padding: 0;
+	top:0px;
+	left:0px;
+}
+#image_menu1 .modal-dialog{
+	width:60%;
+	height: 99%;
+	padding: 0;
+	top:0px;
+	left:0px;
+}
+.modal-content {
+  height: 99%;
+}
+.modal-body {
+  height: 75%;
+}
+#addFTModal .modal-dialog{
+	width: 70%;
+	height: 85%;
+	padding: 0;
+}
+#addFOModal .modal-dialog,#getHRModal .modal-dialog{
+	width: 90%;
+	height: 85%;
+	padding: 0;
+}
+#addObatModal .modal-dialog,#addAlkesModal .modal-dialog,#addFormulaModal .modal-dialog,,#addTindakanModal .modal-dialog{
+	width: 60%;
+	height:85%;
+	padding: 0;
+}
+#tOrgan {
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+#tOrgan tr th,#tOrgan tr td:nth-child(2){
+	text-align:center;
+}
+#tOrgan tr td,#tOrgan tr th{
+	border:1px solid #ccc;
+	padding:3px;
+}
+#tOrgan tr td textarea{
+	font-size:10px;
+	width:100%;
+}
+#obgyntBody{
+	padding:5px 5px;
+	overflow:auto;
+}
+#formObgynt table tr td{
+	vertical-align:top;
+	padding-left:10px;
+	padding-bottom:5px;
+}
+#formObgynt table caption{
+	font-size:20px;
+	font-weight:bold;
+}
+#formObgynt table{
+	width:100%;
+}
+#tableObgynt2 tr td input,#tableObgynt2 tr td select{
+	margin-left:3px;
+	margin-right:2px;
+}
+#body_image,#body_konsul,#body_sts,#body_konsul1,#beriBody{
+	overflow:auto;
+}
+
+.title2{
+	text-align:center;
+	font-size:14px;
+	padding-bottom:5px;
+	font-weight:bold;
+	
+}
+#formJKonsul{
+	margin-top:10px;
+}
+#tabObat tr td input,#tabAlkes tr td input,#tabObat1 tr td input,#tabAlkes1 tr td input{
+	width:95%;
+}
+#tabelKonten,#tabelTindakan{
+	padding-left:5px;
+}
+#tabel_labBody,#tabel_radBody{
+	font-size:10px;
+	padding:0px;
+	width:100%;
+}
+#lab1-vr , #lab2-vr,#rad1-vr,#rad2-vr{
+	width:100%;
+	border:1px solid #ddd;
+	border-top:0px;
+}
+
+#checkLab,#checkRad,#tesBody{
+	width:100%;
+	overflow:auto;
+}
+#kodeLab,#kodeRad{
+	margin-left:15px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+#masterFormula,#buatFormula,#resepHistory,#kontenResep,#masterTindakan,#buatTindakan{
+	border: 1px solid #778899;
+	border-top:0px;
+}
+#masterFormula1,#masterTindakan1{
+	border-right:2px solid #778899;
+}
+#nmFormula,#nmTindakan{
+	margin:20px;
+}
+#simpanFormula,#simpanTindakan{
+	position:relative;
+	top:-3px;
+	margin-left:5px;
+}
+#kdMSFO,#kdMSFO1,#kdHR1,#kdMSFT,#kdMSFT1{
+	padding:5px;
+	margin:5px;
+	margin-left:15px;
+}
+#obatAl,#mknAl{
+	width:200px;
+}
+#obatAl{
+	margin-left:20px;
+}
+#geligi-vr,#formGigi1 table tr td{
+	padding-top:5px;
+	padding-left:5px;
+	overflow:auto;
+}
+#gizi1,#gigi1,#obgynt1{
+	float:right;
+	}
+#giziBody,#geligiBody{
+	padding:0px;
+}
+#asuhan-vr{
+	padding-top:5px;
+	overflow:auto;
+}
+#tableGizi tr td{
+	vertical-align:top;
+	padding-left:10px;
+	padding-bottom:5px;
+}
+#tableLisa tr td,#tableGizi1 tr td,#tableMst tr td{
+	padding-left:5px;
+}
+#hasil1,#hasil2,#totalmst{
+	border:1px solid #000;
+	padding:2px;
+	width:50px;
+	margin-right:5px;
+	text-align:center;
+	height:25px;
+	margin-bottom:0px;
+}
+#tableMst tr td select{
+	width:150px;
+}
+#tableMst tr td{
+	font-size:14px;
+	padding-top:5px;
+	vertical-align:top;
+}
+.gigiK {
+	text-align:center;
+	margin-top:10px;
+}
+.gigiK select,.gigiKa select,.gigiKb select,.gigiKc select,.gigiKd select{
+	height:45px;
+	width:70px;
+	font-size:14px;
+	font-weight:bold;
+}
+.gigiK1 select,.gigiK1a select,.gigiK1b select,.gigiK1c select,.gigiK1d select{
+	height:45px;
+	width:70px;
+	font-size:14px;
+	font-weight:bold;
+}
+.gigiKa select,.gigiK1a select{
+	background:#00ccff;
+	color:#fff;
+}
+.gigiKb select,.gigiK1b select{
+	background:#cc66ff;
+	color:#fff;
+}
+.gigiKc select,.gigiK1c select{
+	background:#ff5050;
+	color:#fff;
+}
+.gigiKd select,.gigiK1d select{
+	background:#66ff66;
+	color:#fff;
+}
+.gigiN{
+	border:1px solid #ccc;
+	height:45px;
+	width:45px;
+	text-align:center;
+}
+.labColor{
+	background: #e3edf9;
+}
+
+.form-horizontal .form-group{
+	margin:0px;
+}
+
+.table{
+	margin-bottom:2px;
+	}
+.table-content .header th{
+	padding:5px;
+	line-height:10px;
+	font-size:10px;
+	font-family:tahoma;
+}
+div.t_fixed_header.ui .body td{
+	padding:5px;
+	line-height:12px;
+	font-size:12px;
+	font-family:tahoma;
+}
+.table-content1 .header th{
+	padding:2px;
+	line-height:14px;
+	
+}
+
+div.t_fixed_header.ui .body tr:hover,div.t_fixed_header.ui .body tr:focus,div.t_fixed_header.ui .body tr.selected{
+	background-color: #c0c9d7;
+}
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus{
+	background-color: #8ca9cf;
+}
+.nav-tabs.nav-justified {
+	font-size:16px;
+}
+
+.ui-state-active{
+	/* appearance */
+background-color: #d6e0ef;
+background-image: -moz-linear-gradient(
+top,
+rgba(255,255,255,0.4) 0%,
+rgba(255,255,255,0.2) 50%,
+rgba(255,255,255,0.1) 51%,
+rgba(255,255,255,0.0) 100%);
+background-image: -webkit-gradient(
+linear, left top, left bottom,
+color-stop(0%,rgba(255,255,255,0.4)),
+color-stop(50%,rgba(255,255,255,0.2)),
+color-stop(51%,rgba(255,255,255,0.1)),
+color-stop(100%,rgba(255,255,255,0.0)));
+}
+
+.icon-red {
+	color:red;
+}
+.icon-blue {
+	color:blue;
+}
+.icon-green {
+	color:green;
+}
+.hide{
+	display:none;
+	}
+.tableTes thead tr th{
+	border-top:1px dashed;
+	border-bottom:2px dashed;
+	padding:5px;
+	margin-bottom:5px;
+}
+.tableTes tbody tr:last-child td{
+	border-bottom:2px dashed;
+	padding-bottom:10px;
+}
+.tableTes tbody tr td{
+	padding-left:5px;
+}
+.tdAnam{
+	width:40px;
+	text-align:right;
+	padding-right:5px;
+}
+ .afield{
+	height:170px;
+	border:1px solid #ccc;
+	padding-left:5px;
+	margin-bottom:10px;
+} 
+.bfield{
+	height:410px;
+	border:1px solid #ccc;
+	padding-left:5px;
+	margin-bottom:10px;
+} 
+#aAwal{
+	vertical-align:top;
+	}
+legend{
+	margin-bottom:5px;
+	width:auto;
+	font-size:14px;
+}
+.tabPrimer{
+	margin-bottom:10px;
+}
+#table-grafik tr td,#table-grafik tr th{
+	border:1px solid black;
+	padding:2px;
+}
+#grafik_pasien1 .modal-dialog{
+	width: 1010px;
+	height:845px;
+	padding: 0;
+	top:0px;
+	left:0px;
+}
+.xchart .axis .tick{
+	stroke:black;
+}
+#note_menu .modal-header{
+	background-color: #8ca9cf;
+	background-image: -moz-linear-gradient(
+	top,
+	rgba(255,255,255,0.4) 0%,
+	rgba(255,255,255,0.2) 50%,
+	rgba(255,255,255,0.1) 51%,
+	rgba(255,255,255,0.0) 100%);
+	background-image: -webkit-gradient(
+	linear, left top, left bottom,
+	color-stop(0%,rgba(255,255,255,0.4)),
+	color-stop(50%,rgba(255,255,255,0.2)),
+	color-stop(51%,rgba(255,255,255,0.1)),
+	color-stop(100%,rgba(255,255,255,0.0)));
+}
+#note_menu .modal-dialog,#find_menu .modal-dialog{
+	width:800px;	
+}
+.tabel1{
+	
+	width:647px;
+	padding-bottom:20px;
+	margin-left:-15px;
+}
+.label1{
+	width:160px;
+}
+.span1{
+	width:20px;
+	}
+	.li_note{
+	cursor:pointer;
+}
+#note1{
+	border:1px solid;
+	height:340px;
+	border-top:0px;
+}
+.ul_note li{
+	padding-top:5px;
+	cursor:pointer;
+}
+#note2{
+	width:550px;
+}
+#rtf_note{
+	width:550px;
+	height:340px;
+	border-bottom:1px solid;
+	border-right:1px solid;
+	}
+#reRad-vr,#reAdd-vr{
+	border:1px solid #ccc;
+	padding:2px;
+	min-height:300px;
+}
+#traHemo-vr,#catHemo-vr,#insHemo-vr,#intraHemo-vr{
+	padding-left:5px;
+	font-size:14px;
+	overflow:auto;
+	border:1px solid #ccc;
+}
+#tableTraHemo tr td,#tableCatHemo tr td,#tableCatHemo1 tr td,#tableIntraHemo tr td{
+	vertical-align:top;
+	padding-top:5px;
+	padding-right:5px;
+}
+
+.iSmall{
+	width:100px;
+	display:inline;
+}
+.iSmall1{
+	width:150px;
+}
+.iLeft{
+	margin-left:25px;
+}
+.bHR td{
+	border-bottom:1px solid #ccc;
+	padding-bottom:5px;
+}
+#insHemo_table tr td,#preHemo_table tr td,#intraHemo_table tr td,#postHemo_table tr td{
+	font-size:16px;
+	line-height:1.2em;
+}
+#tableIntraHemo1 tr td{
+	padding-right:5px;
+}
+.blink {
+	color:red;
+	animation: blinker 1s step-start infinite;
+	font-size:1.5em;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.modal.fade {
+  left: -25%;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+          transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.fade.in {
+  left: 1%;
+}​

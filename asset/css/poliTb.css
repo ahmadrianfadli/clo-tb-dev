@@ -1,0 +1,677 @@
+body{
+    background:#cedff5; 
+	font-family:tahoma;
+	font-size:12px;
+}
+.container-fluid,.col-sm-1,.col-xs-2,.col-xs-10,.col-xs-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-11,.col-sm-12{
+	padding-left:0px;
+	padding-right:0px;
+}
+.icon-box{
+	height:15px;
+	width:5px;
+	border:1px solid;
+	margin:0 5px 0 5px;
+}
+.tKanan{
+	text-align:right;
+	width:100%;
+}
+#i1,#i2,#i9,#tindakICD,#pi1,#pi2,#pi9,#ptindakICD{
+	max-width:80px;
+	max-width:50px;
+	margin-left:10px;
+}
+.tabKanan{
+	text-align:right;
+	padding-right:5px;
+}
+.tKiri{
+	text-align:left;
+	width:100%;
+	}
+hr{
+	margin:5px 0;
+}
+#menu,#cSoap,#mlp{
+	float:right;
+}
+.btn-xs, .btn-group-xs > .btn{
+	
+	min-width:50px;
+}
+#time{
+	float:left;
+	margin-left:38%;
+	margin-right:1%;
+	width:20%;
+	text-align:right;
+}
+
+#user{
+	float:left;
+	margin-left:1%;
+	width:40%;
+}
+#tOrgan,#tOrgan1 {
+	border:1px solid #ccc;
+	border-collapse:collapse;
+}
+#tOrgan tr th,#tOrgan tr td:nth-child(2),#tOrgan1 tr th,#tOrgan1 tr td:nth-child(2){
+	text-align:center;
+}
+#tOrgan tr td,#tOrgan tr th,#tOrgan1 tr td,#tOrgan1 tr th{
+	border:1px solid #ccc;
+	padding:3px;
+}
+#tOrgan tr td textarea,#tOrgan1 tr td textarea{
+	font-size:10px;
+	width:100%;
+}
+#dPlan{
+	width:40px;
+	margin-right:5px;
+}
+#rRawat,#kRawat{
+	width:120px;
+}
+#body_image,#body_image1,#body_konsul,#pilihPPK,#pilihPPK1,#FormSopa{
+	overflow:auto;
+}
+#tempImage{
+	position:relative;
+	width:350px; 
+	height:380px; 
+	padding-bottom:5px;
+	border:2px solid #ccc; 
+	background:white;
+	background-size:100% 100%; 
+	overflow:auto;
+}
+#formAnam table tr td:first-child,#tabelImage tr td:first-child,#tabelImage1 tr td:first-child{
+	font-weight:bold;
+	text-align:right;
+	padding-right:5px;
+	padding-left:30px;
+	vertical-align:top;
+}
+
+#nImage,#nImage1,#ketImage,#ketImage1{
+	width:300px;
+}
+#tabelDpt{
+	height:200px;
+	border:1px solid;
+	margin-top:10px;
+}
+#tabelTotal{
+	overflow-x:auto;
+	overflow-y:hidden;
+	height:200px;
+	border:1px solid;
+	margin-left:5px;
+}
+#total_table{
+	margin-bottom:15px;
+}
+#hasilKonsul{
+	height:200px;
+	width:100%;
+	border:1px solid;
+	margin-top:10px;
+}
+#totalByr{
+	font-size:24px;
+}
+.imgTemp img{
+	width:333px; 
+	height:190px; 
+	border-bottom:3px solid red;
+}
+.title,.panel-default > .panel-heading
+{
+	position: relative;
+	width:100%;
+	border: 1px solid #778899;
+	/* size */
+	padding: 1px;
+	background-color: #8ca9cf;
+	background-image: -moz-linear-gradient(
+	top,
+	rgba(255,255,255,0.4) 0%,
+	rgba(255,255,255,0.2) 50%,
+	rgba(255,255,255,0.1) 51%,
+	rgba(255,255,255,0.0) 100%);
+	background-image: -webkit-gradient(
+	linear, left top, left bottom,
+	color-stop(0%,rgba(255,255,255,0.4)),
+	color-stop(50%,rgba(255,255,255,0.2)),
+	color-stop(51%,rgba(255,255,255,0.1)),
+	color-stop(100%,rgba(255,255,255,0.0)));
+	/* text */
+	color: #fffacd;
+	font-size: 12px;
+	/*text-shadow: 0 1px 1px #e8ebee;*/
+	text-align:center;
+}
+.input-sm, .form-horizontal .form-group-sm .form-control{
+	padding: 2px 5px;
+	height:25px;
+}
+.header1{
+	background:#B0C4DE;
+	position: relative;
+	padding-left:10px;
+	padding-bottom:5px;
+	color: #15428b;
+    font-weight:bold;
+	text-shadow: 0 1px 1px #e8ebee;
+	font-size:16px;
+}
+.header{
+	color: #15428b;
+    font-weight:bold;
+	text-shadow: 0 1px 1px #e8ebee;
+}
+
+#tab{
+	margin-left:2%;
+	margin-right:2%;
+}
+.panel-group{
+	margin-bottom:0px;
+}
+.panel-default{
+	border-color: #8ca9cf;
+}
+.panel-heading{
+	padding:3px;
+}
+.panel-title{
+	font-size:14px;
+}
+.panel-body{
+	padding:0px;
+}
+.bigFont{
+	float:left;
+	font-size:30px;
+	color:red;
+}
+.need{
+	color:red;
+}
+.activation{
+	text-decoration:none;
+	color:black;
+	float:left;
+	cursor:pointer;
+}
+#addT{
+	margin-bottom:5px;
+}
+#aAwal{
+	vertical-align:top;
+	}
+.nonetab{
+	display:none;
+}
+#tab1{
+	background:#75B4F4;
+	border:1px solid #778899;
+}
+div.t_fixed_header div.body{
+	overflow-x:hidden;
+}
+#visit,#status,#soap,#icdDiagnosa{
+	overflow:auto;
+}
+#tab2{
+	background:white;
+	border:1px solid #778899;
+	border-top:0px;
+	font-size:12px;
+	background: url('../image/bg2.jpg');
+	background-size: 100% 100%;
+}
+#tab3{
+	background:white;
+	border:1px solid #778899;
+	border-top:0px;
+	font-size:12px;
+}
+#ketPasien{
+	padding-top:3px;
+	padding-left:3px;
+	height:100px;
+	overflow:auto;
+	font-size:18px;
+}
+
+#tindakTable,#imgTable,#diagTable,#tindakTable1,#diagTable1{
+	overflow:auto;
+	background:white;
+	border:1px solid #ddd;
+	height:87px;
+	margin:5px 0;
+}
+#tindakTable table tr,#imgTable table tr,#diagTable table tr,#tindakTable1 table tr  ,#diagTable1 table tr {
+	border-bottom:1px solid;
+}
+#tindakTable table tr td ,#imgTable table tr td,#diagTable table tr td,#tindakTable1 table tr td ,#diagTable1 table tr td{
+	padding:5px;
+}
+#form1 textarea,#form2 textarea,#formKonsul textarea,#formJKonsul textarea{
+	margin:2px 0;
+}
+#icd_table tr td:first-child,#icd2_table tr td:first-child{
+	text-align:left;
+}
+#ketPas tr td{
+	text-align:right;
+	font-size:10px;
+}
+#ketPas tr td:nth-child(2n+1){
+	font-weight:bold;
+}
+
+#periksa,#tabResep1,#formBody2{
+	overflow:auto;
+}
+
+#isi{
+	border-left:1px solid #ddd;
+	overflow:auto;
+	/*left:-36px;*/
+}
+#ckSoap,#cjSoap{
+	float:right;
+	position:relative;
+}
+.title2{
+	text-align:center;
+	font-size:14px;
+	padding-bottom:5px;
+	font-weight:bold;
+	
+}
+#formJKonsul{
+	margin-top:10px;
+}
+#closeTab1{
+	float:right;
+	min-width:10px;
+	width:20px;
+	height:5px;
+	top:-3px;
+	position:relative;
+}
+#clsTab{
+	float:left;
+	min-width:10px;
+	width:20px;
+	height:5px;
+	top:-3px;
+	position:relative;
+}
+#opnTab{
+	float:right;
+	min-width:10px;
+	width:20px;
+	height:5px;
+	left:-30px;
+	position:relative;
+}
+#openTab{
+	float:left;
+	min-width:10px;
+	width:20px;
+	height:5px;
+	top:-3px;
+	position:relative;
+}
+.title1{
+	background:#cedff5;
+	padding-left:5px;
+}
+#form2{
+	margin-top:15px;
+}
+#alergiTam,#cattTam{
+	margin:5px;
+	margin-bottom:10px;
+}
+
+#tabAlergi,#tabCatt,#tabSejarahD,#tabSejarahO,#tabSejarahL,#tabSejarahR{
+	overflow-x:auto;
+	padding:0px;
+}
+
+#nav1{
+	width:0%;
+	left:-70px;
+}
+#nav1 > ul{
+	left:0px;
+}
+#form1,#form2,#form3,#form4,#form5{
+	padding:5px;
+}
+#formModal2 .modal-dialog,#PPKModal .modal-dialog,#addPPKModal .modal-dialog,#giziModal .modal-dialog,#addTempModal .modal-dialog,#templateModal .modal-dialog,#anamnesaModal1 .modal-dialog,#image_menu .modal-dialog,#image_menu1 .modal-dialog,#obatModal .modal-dialog,#labModal .modal-dialog,#radModal .modal-dialog,#alkesModal .modal-dialog,#formulaObatModal .modal-dialog,#formulaTindakanModal .modal-dialog,#tesModal .modal-dialog,#konsul_menu .modal-dialog,#sopaModal .modal-dialog{
+	width: 99%;
+	height: 99%;
+	padding: 0;
+	top:0px;
+	left:0px;
+}
+#anamnesaModal .modal-dialog{
+	width: 99%;
+	height: 75%;
+	padding: 0;
+	top:0px;
+	left:0px;
+}
+#anamnesaModal .modal-body{
+	height: 70%;
+}
+#icdModal .modal-dialog{
+	width:60%;
+}
+#dapat_menu .modal-dialog,#total_menu .modal-dialog{
+	width:400px;
+}
+#image_menu1 .modal-dialog{
+	width:60%;
+	height: 99%;
+	padding: 0;
+	top:0px;
+	left:0px;
+}
+.modal-content {
+  height: 99%;
+}
+.modal-body {
+  height: 75%;
+}
+#addFormulaModal .modal-dialog,#addObatModal .modal-dialog,#addFormulaPPKModal .modal-dialog{
+	width: 70%;
+}
+#addFOModal .modal-dialog,#getHRModal .modal-dialog,#addFTModal .modal-dialog{
+	width: 90%;
+	height: 85%;
+	padding: 0;
+}
+#addBHNModal .modal-dialog{
+	width: 40%;
+	height:85%;
+	padding: 0;
+}
+#addAlkesModal .modal-dialog,#addTindakanModal .modal-dialog,#addTindakanPPKModal .modal-dialog{
+	width: 40%;
+}
+#tabObat3 tr td input,#tabObat3 tr td select,#tabObat tr td input,#tabObat tr td select,#tabAlkes tr td input,#tabObat1 tr td input,#tabObat1 tr td select,#tabAlkes1 tr td input,#tabAlkes2 tr td input{
+	width:95%;
+}
+#tabRacik tr td input,#tabRacik tr td select,#tabRacik1 tr td input,#tabRacik1 tr td select,#tabRacik2 tr td input,#tabRacik2 tr td select{
+	width:300px;
+}
+#tabRacik tr td ,#tabRacik1 tr td,#tabRacik2 tr td{
+	padding: 2px 1px;
+}
+#tabelKonten,#tabelTindakan,#tabResep,#tabTindak{
+	padding-left:5px;
+}
+#tabel_labBody,#tabel_radBody{
+	font-size:14px;
+	padding:0px;
+	width:100%;
+}
+#lab1-vr , #lab2-vr,#rad1-vr,#rad2-vr{
+	width:100%;
+	border:1px solid #ddd;
+	border-top:0px;
+}
+
+#checkLab,#checkRad,#checkLabPPK,#checkRadPPK,#tesBody{
+	width:100%;
+	overflow:auto;
+}
+#kodeLab,#kodeRad{
+	margin-left:15px;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+#pilihPPK,#masterPPK,#buatPPK,#pilihPPK1,#masterPPK1,#buatPPK1,#masterTemp,#masterTemp1,#masterFormula,#buatFormula,#resepHistory,#kontenResep,#masterTindakan,#buatTindakan{
+	border: 1px solid #778899;
+	border-top:0px;
+	font-size:12px;
+}
+#isiTemp,#isiTemp1{
+	border-bottom:1px solid #778899;
+	padding:5px;
+	overflow:auto;
+}
+#masterFormula1,#masterTindakan1{
+	border-right:2px solid #778899;
+}
+#nmFormula,#nmTindakan{
+	margin:20px;
+}
+#simpanFormula,#simpanTindakan{
+	position:relative;
+	top:-3px;
+	margin-left:5px;
+}
+#kdMSFO,#kdMSFO1,#kdHR1,#kdMSFT,#kdMSFT1{
+	padding:5px;
+	margin:5px;
+	margin-left:15px;
+}
+.labColor{
+	background: #e3edf9;
+}
+
+.form-horizontal .form-group{
+	margin:0px;
+}
+
+.table{
+	margin-bottom:2px;
+	}
+.table-content .header th{
+	padding:5px;
+	line-height:10px;
+	font-size:10px;
+	font-family:tahoma;
+}
+div.t_fixed_header.ui .body td{
+	padding:5px;
+	line-height:12px;
+	font-size:12px;
+	font-family:tahoma;
+}
+.table-content1 .header th{
+	padding:2px;
+	line-height:14px;
+	
+}
+
+div.t_fixed_header.ui .body tr:hover, div.t_fixed_header.ui .body tr:focus, div.t_fixed_header.ui .body tr.selected{
+	background-color: #c0c9d7;
+}
+.nav-tabs.nav-justified > .active > a, .nav-tabs.nav-justified > .active > a:hover, .nav-tabs.nav-justified > .active > a:focus{
+	background-color: #8ca9cf;
+}
+.nav-tabs.nav-justified {
+	font-size:16px;
+}
+
+.ui-state-active{
+	/* appearance */
+background-color: #d6e0ef;
+background-image: -moz-linear-gradient(
+top,
+rgba(255,255,255,0.4) 0%,
+rgba(255,255,255,0.2) 50%,
+rgba(255,255,255,0.1) 51%,
+rgba(255,255,255,0.0) 100%);
+background-image: -webkit-gradient(
+linear, left top, left bottom,
+color-stop(0%,rgba(255,255,255,0.4)),
+color-stop(50%,rgba(255,255,255,0.2)),
+color-stop(51%,rgba(255,255,255,0.1)),
+color-stop(100%,rgba(255,255,255,0.0)));
+}
+
+.icon-red {
+	color:red;
+}
+.icon-blue {
+	color:blue;
+}
+.icon-green {
+	color:green;
+}
+.hide{
+	display:none;
+	}
+.tableTes thead tr th{
+	border-top:1px dashed;
+	border-bottom:2px dashed;
+	padding:5px;
+	margin-bottom:5px;
+}
+.tableTes tbody tr:last-child td{
+	border-bottom:2px dashed;
+	padding-bottom:10px;
+}
+.tableTes tbody tr td{
+	padding-left:5px;
+}
+.tdAnam{
+	width:40px;
+	text-align:right;
+	padding-right:5px;
+}
+#anamnesaBody{
+	font-size:12px;
+}
+ .afield{
+	height:170px;
+	border:1px solid #ccc;
+	padding-left:5px;
+	margin-bottom:12px;
+} 
+.bfield{
+	height:210px;
+	border:1px solid #ccc;
+	padding-left:5px;
+	margin-bottom:10px;
+} 
+legend{
+	margin-bottom:5px;
+	width:auto;
+	font-size:10px;
+}
+.tabPrimer{
+	margin-bottom:10px;
+}
+#formTemp{
+	padding-left:5px;
+}
+#prevB,#prevPage,#prevP1,#prevP2,#prevP3,#prevPage1,#prevPage2,#prevPage3{
+	position:relative;
+	float:left;
+}
+#prevPage,#nextPage,#prevP1,#nextP1,#prevP2,#nextP2,#prevP3,#nextP3,#prevPage1,#nextPage1,#prevPage2,#nextPage2,#prevPage3,#nextPage3{
+	top:-10px;
+}
+#addBS,#addBSmdl{
+	position:relative;
+	margin-left:50%;
+	}
+#nextB,#nextPage,#nextP1,#nextP2,#nextP3,#nextPage1,#nextPage2,#nextPage3{
+	position:relative;
+	float:right;
+	}
+#gizi1{
+	float:right;
+	}
+#giziBody{
+	padding:0px;
+}
+#asuhan-vr{
+	padding-top:5px;
+	overflow:auto;
+}
+#tableGizi tr td{
+	vertical-align:top;
+	padding-left:10px;
+	padding-bottom:5px;
+}
+#tableLisa tr td,#tableGizi1 tr td{
+	padding-left:5px;
+}
+textarea{
+	min-height:50px;
+	}
+#tglMkn{
+	width:80px;
+}
+.call{
+	position:relative;
+	top:-3px;
+	margin-left:5px;	
+}
+#tabel_obatBody{
+	overflow:auto;
+	border-right:1px solid #ccc;
+	
+}
+.infoTabel{
+	font-size:12px;
+}
+#history_resep{
+}
+.btn_sb{
+	margin-top:8px;
+	margin-left:5px;
+}
+#insert_PPK .modal-dialog,#update_PPK .modal-dialog{
+	width:450px;	
+}
+#kodePPK1,#kodePPK{
+	width:100px;
+	margin-bottom:5px;
+	margin-left:5px;
+}
+#namaPPK1,#namaPPK{
+	margin-left:5px;
+}
+.bootbox-prompt .modal-dialog,.bootbox-alert .modal-dialog,.bootbox-confirm .modal-dialog{
+	width:40%;
+}
+.bootbox-body{
+	font-size:14px;
+}
+.modal.fade {
+  left: -25%;
+  -webkit-transition: opacity 0.3s linear, left 0.3s ease-out;
+     -moz-transition: opacity 0.3s linear, left 0.3s ease-out;
+       -o-transition: opacity 0.3s linear, left 0.3s ease-out;
+          transition: opacity 0.3s linear, left 0.3s ease-out;
+}
+
+.modal.fade.in {
+  left: 1%;
+}
+.blink {
+	animation: blinker 1s step-start infinite;
+	font-size:1.5em;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

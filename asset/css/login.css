@@ -1,0 +1,85 @@
+html,
+body { height: 100%; }
+ 
+body {
+  display: table;
+  width: 100%;
+  font-family:tahoma;
+  /*background:#cedff5;*/
+  background:white url('../image/SIMRS.jpg') no-repeat;
+  background-size:100% 100%;
+  background-position:center;
+}
+ 
+.page-row {
+  display: table-row;
+  height: 1px;
+}
+ 
+.page-row-expanded { 
+	height: 100%; /*
+	background:white url('../image/logo1.jpg') no-repeat;
+	background-size:100% 100%;
+	background-position:center;*/
+}
+#header_menu
+{
+	border:2px solid #569CE3;
+	background-color:#2E8DEF;
+	height:60px;
+}
+#logo 
+{
+	background:white url('../image/logo.jpg') no-repeat center;
+	background-size:45px 45px;
+	height:50px;
+	width:50px;
+	position:absolute;
+	margin:5px;
+	border:1px solid;
+	border-radius:10px;
+}
+#judul
+{
+	position:relative;
+	padding-left:10px;
+	margin-left:60px;
+	padding-top:5px;
+	font-weight:bold;
+	color:#F8F8FF;
+	font-size:18px;
+}
+.footer1{
+	background:#2E8DEF;
+	border:2px solid #569CE3;
+	text-align:center;
+}
+#alamat{
+	text-align:center;
+	font-size:12px;
+	font-weight:bold;
+	color:#F8F8FF;
+}
+
+.login .col-xs-3 {
+	float:left;
+	font-family:tahoma;
+	font-size:12px;
+	border-radius: 5px;
+	padding:10px;
+	background: rgb(229, 229, 229);
+	background: rgba(229, 229, 229, 0.6);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	-ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+	border: thin solid #333;
+	margin-left:10px;
+}
+
+.bootbox-prompt .modal-dialog,.bootbox-alert .modal-dialog,.bootbox-confirm .modal-dialog{
+	width:40%;
+}
+.bootbox-body{
+	font-size:14px;
+}
+
+

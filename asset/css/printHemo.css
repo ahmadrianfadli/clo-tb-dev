@@ -1,0 +1,18 @@
+@media print {
+    .noprint {display:none !important;}
+    a:link:after, a:visited:after {  
+      display: none;
+      content: "";    
+    }
+	a {
+        display:none;
+    }
+	@page { margin: 0mm; size: 7in 9.25in;  }
+	body { margin: 1cm;font-size:0.5em}
+	#tabelHead{ width:100%;}
+	#tableH tr td{vertical-align:top;}
+	table tr td{vertical-align:top;}
+}
+#tabelH tr td{vertical-align:top;}
+table tr td{vertical-align:top;}
+
